@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;500;700&display=swap');
+
+:root {
+  --cs-blue: #7093FF;
+  --cs-dark-blue: #1F2029;
+  --cs-icon-color: #9C9DA1;
+  --cs-icon-hover: hsl(228, 0%, 20%);
+  --cs-icon-bg: #45474B;
+  --cs-icon-bg-hover: hsl(220, 4%, 50%);
+}
+
+body {
+  margin: 0;
+}

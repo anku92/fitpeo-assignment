@@ -1,0 +1,35 @@
+:root {
+  --logo-size: 50px; /* Default size */
+  --cone-border-radius: calc(var(--logo-size) / 1.5); /* More than half */
+}
+
+.logo {
+  width: var(--logo-size);
+  height: var(--logo-size);
+  display: grid;
+  grid-template-columns: repeat(2, calc(var(--logo-size) / 2));
+  grid-template-rows: repeat(2, calc(var(--logo-size) / 2));
+  place-content: center;
+  gap: 1px;
+}
+
+.cone {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: var(--cone-border-radius);
+  border-top-right-radius: var(--cone-border-radius);
+  border-bottom-right-radius: var(--cone-border-radius);
+  background-color: var(--cs-blue);
+}
+
+.twist85 {
+  rotate: 85deg;
+}
+
+.twist-90 {
+  rotate: -90deg;
+}
+
+.twist-180 {
+  rotate: -180deg;
+}
