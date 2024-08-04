@@ -1,0 +1,46 @@
+.footer-text{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.dash-card{
+  background-color: var(--cs-dark-blue);
+  padding: 14px;
+  border-radius: 10px;
+  color: white;
+}
+
+.mini-card-img{
+  border-radius: 10px;
+  height: 50px;
+  margin-bottom: 7px;
+}
+
+.title{
+  color: #D7D9DF;
+  font-size: 0.8em;
+}
+
+.value {
+  font-weight: 900;
+  font-size: 1.5em;
+}
+
+.stats{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 0.7em;
+  margin: 0;
+}
+
+.up {
+  color: rgb(3, 164, 3);
+}
+
+.down{
+  color: rgb(204, 6, 6);
+}

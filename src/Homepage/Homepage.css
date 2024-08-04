@@ -10,15 +10,19 @@
 
 
 .home-section-left{
+  padding: 20px 25px;
   background-color: red;
 }
 
 .home-section-right{
-  background-color: blue;
+  background-color: grey;
 }
+
+
 
 @media (max-width: 570px) {
   .homepage{
-    padding: 0;
+    padding: 120px 0;
+    grid-template-columns: 1fr;
   }
 }

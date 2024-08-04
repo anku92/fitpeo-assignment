@@ -2,6 +2,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Homepage from "./Homepage";
 import Sidebar from "./components/Sidebar";
+import DashboardMiniGrid from "./components/DashboardMiniGrid";
 
 
 
