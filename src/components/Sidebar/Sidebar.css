@@ -9,6 +9,7 @@
   align-items: stretch;
   justify-content: flex-start;
   transition: all 0.3s ease;
+  z-index: 10;
 }
 
 .lg-logo-container {
