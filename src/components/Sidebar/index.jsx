@@ -15,8 +15,12 @@ function Sidebar() {
 
   return (
     <div className="sidebar">
-      <div className="hero-logo-container">
+      <div className="lg-logo-container">
         <Logo size={'30px'} />
+      </div>
+
+      <div className="sm-logo-container">
+        <Logo size={'25px'} />
       </div>
 
       <div className="navigation-icons">
