@@ -77,7 +77,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding: 0 30px 0 0;
+    padding: 0 15px 0 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   }
 
@@ -96,7 +96,7 @@
 
   .navigation-icons {
     width: calc(100% - 65px);
-    margin-left: 30px;
+    margin-left: 15px;
     flex-direction: row;
     align-items: center;
     position: relative;

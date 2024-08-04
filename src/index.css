@@ -7,8 +7,11 @@
   --cs-icon-hover: hsl(228, 0%, 20%);
   --cs-icon-bg: #45474B;
   --cs-icon-bg-hover: hsl(220, 4%, 55%);
+  --cs-main-bg: #141316;
 }
 
 body {
   margin: 0;
+  background-color: var(--cs-main-bg);
+
 }
