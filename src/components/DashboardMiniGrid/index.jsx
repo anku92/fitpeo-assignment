@@ -8,28 +8,28 @@ const DashboardMiniGrid = () => {
     {
       icon: "https://placehold.co/200/283169/png",
       title: "Total Orders",
-      value: '75',
+      value: {count: '75'},
       status: 'up',
       change: 3
     },
     {
       icon: "https://placehold.co/200/145347/png",
       title: "Total Delivered",
-      value: '70',
+      value: {count: '70'},
       status: 'down',
       change: 3
     },
     {
       icon: "https://placehold.co/200/613339/png",
       title: "Total Cancelled",
-      value: '05',
+      value: {count :'05'},
       status: 'up',
       change: 3
     },
     {
       icon: "https://placehold.co/200/5D2B4A/png",
       title: "Total Revenue",
-      value: '$12k',
+      value: {amount: '12'},
       status: 'down',
       change: 3
     }
