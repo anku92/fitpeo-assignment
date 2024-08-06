@@ -1,7 +1,9 @@
 
-import BarChart from "../components/BarChart";
+
 import DashboardMiniGrid from "../components/DashboardMiniGrid";
+import { BarGraph } from "../components/Graph";
 import Header from "../components/Header";
+import RecentOrdersList from "../components/RecentOrdersList";
 import Sidebar from "../components/Sidebar";
 
 // Import CSS
@@ -15,9 +17,11 @@ const Homepage = () => {
       <Sidebar />
       <div className="homepage">
         <div className="home-section-left">
-          <h3 className="mb-2 ms-1">Dashboard</h3>
+          <h3 className="mb-2 ms-2">Dashboard</h3>
           <DashboardMiniGrid />
-          <BarChart />
+          <BarGraph />
+          <RecentOrdersList />
+        
 
         </div>
 

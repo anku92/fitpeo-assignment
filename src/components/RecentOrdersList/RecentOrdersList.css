@@ -1,0 +1,49 @@
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background-color: transparent;
+  color: lightgrey;
+}
+
+.custom-table th,
+.custom-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid var(--cs-icon-bg);
+  text-align: left;
+}
+
+.custom-table th {
+  font-weight: 500;
+}
+
+.custom-table tbody tr:hover {
+  background-color: hsl(234, 44%, 34%);
+  ;
+}
+
+.custom-table tr:last-child td {
+  border-bottom: none;
+}
+
+.customer-image {
+  height: 40px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.status {
+  padding: 3px 10px;
+  font-size: 0.8em;
+  border-radius: 30px;
+}
+
+.no-success {
+  background-color: #5E3233;
+  color: #CE625E;
+}
+
+.success {
+  background-color: #145446;
+  color: #29AE8A;
+}
