@@ -1,7 +1,5 @@
-
-
 import DashboardMiniGrid from "../components/DashboardMiniGrid";
-import { BarGraph } from "../components/Graph";
+import BarChart from "../components/Graph/BarChart";
 import Header from "../components/Header";
 import RecentOrdersList from "../components/RecentOrdersList";
 import Sidebar from "../components/Sidebar";
@@ -19,15 +17,11 @@ const Homepage = () => {
         <div className="home-section-left">
           <h3 className="mb-2 ms-2">Dashboard</h3>
           <DashboardMiniGrid />
-          <BarGraph />
+          <BarChart />
           <RecentOrdersList />
-        
-
         </div>
 
-
         <div className="home-section-right"></div>
-
       </div>
     </>
   );
