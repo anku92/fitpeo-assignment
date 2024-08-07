@@ -1,23 +1,32 @@
-.footer-text{
+.footer-text {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.dash-card{
+#dash-col {
+  padding: 0 15px 0 0 !important;
+  margin: 0 !important;
+}
+
+#dash-col:last-child {
+  padding-right: 0 !important;
+}
+
+.dash-card {
   background-color: var(--cs-dark-blue);
   padding: 14px;
   border-radius: 10px;
   color: white;
 }
 
-.mini-card-img{
+.mini-card-img {
   border-radius: 10px;
   height: 50px;
   margin-bottom: 7px;
 }
 
-.title{
+.title {
   color: #D7D9DF;
   font-size: 0.87em;
 }
@@ -27,7 +36,7 @@
   font-size: 1.5em;
 }
 
-.stats{
+.stats {
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -40,6 +49,24 @@
   color: rgb(3, 164, 3);
 }
 
-.down{
+.down {
   color: rgb(204, 6, 6);
+}
+
+
+@media screen and (max-width: 1000px) {
+  .title {
+    font-size: 0.85em;
+  }
+}
+
+@media screen and (max-width: 991.5px) {
+  #dash-col {
+    margin-bottom: 10px !important;
+    padding: 0 !important;
+  }
+
+  #dash-col:last-child {
+    margin-bottom: 0 !important;
+  }
 }

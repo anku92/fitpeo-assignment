@@ -1,8 +1,8 @@
 .wrapper {
   background-color: var(--cs-dark-blue);
   border-radius: 10px;
-  padding: 20px;
-  height: 300px;
+  padding: 14px;
+  height: 250px;
   display: flex;
   align-items: stretch;
   flex-direction: column;
@@ -15,25 +15,21 @@
   justify-content: space-between;
 }
 
-.chart-container {
+.chart-container canvas {
   flex: 1 0 40%;
 }
 
-.bar-graph {
-  max-height: 250px;
-  height: 100%;
-}
-
 .selector {
+  font-size: 0.9em;
   appearance: none;
   background-color: var(--cs-icon-bg);
   color: lightgrey;
-  padding: 5px 30px 5px 10px;
+  padding: 5px 30px 5px 15px;
   border-radius: 20px;
   background-color: var(--cs-icon-bg);
   background-image: url('./icons/arrow_dn.svg');
   background-repeat: no-repeat;
-  background-position: right 10px center;
+  background-position: right 5px center;
   background-size: 20px;
   cursor: pointer;
   border: none;

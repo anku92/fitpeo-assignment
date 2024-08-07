@@ -9,7 +9,7 @@ const RecentOrdersList = () => {
   }
 
   return (
-
+// p-0 mt-0 mb-3 mx-0
     <div style={{ backgroundColor: "var(--cs-dark-blue)" }} className="row rounded-3 mx-1 px-4">
       <h3 className="px-0 py-3 m-0">Recent Orders</h3>
       <table className="custom-table">

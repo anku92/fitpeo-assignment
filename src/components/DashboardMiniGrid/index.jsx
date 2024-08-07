@@ -37,7 +37,7 @@ const DashboardMiniGrid = () => {
 
   return (
 
-    <div className="row p-0 m-0">
+    <div className="row p-0 mt-0 mb-3 mx-0">
       {
         grid_data.map((gdata, index) => {
           return <Grid key={index} data={gdata} />

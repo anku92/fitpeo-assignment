@@ -9,7 +9,7 @@ const Grid = (props) => {
   const formattedValue = isAmount ? `$${value.amount}k` : value.count;
 
   return (
-    <div className="col-lg-3 px-1 mb-3">
+    <div id='dash-col' className="col-lg-3">
       <div className="dash-card">
         <div className="card-header border-0 p-0">
           <img src={icon} className="mini-card-img" alt={title} />

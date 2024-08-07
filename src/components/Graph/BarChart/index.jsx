@@ -73,9 +73,9 @@ const BarChart = () => {
   };
 
   return (
-    <div className="wrapper mx-1 mb-3">
+    <div className="wrapper mt-0 mb-3 mx-0">
       <div className="chart-header">
-        <h2>Activities</h2>
+        <h3>Activities</h3>
         <div className="dropdown-container">
           <select className='selector' id="period" value={period} onChange={handlePeriodChange}>
             <option value="weekly">Weekly</option>
@@ -85,11 +85,10 @@ const BarChart = () => {
       </div>
 
       <div className="chart-container">
-        <Bar className='bar-graph' options={options} data={barChartData} />
+        <Bar options={options} data={barChartData} />
       </div>
     </div>
   );
 };
-
 
 export default BarChart;
