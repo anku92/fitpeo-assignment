@@ -13,7 +13,7 @@ const Grid = (props) => {
       <div className="dash-card">
         <div className="card-header border-0 p-0">
           <img src={icon} className="mini-card-img" alt={title} />
-          <h6 className="title">{title}</h6>
+          <span className="title">{title}</span>
         </div>
 
         <div className="card-footer p-0 border-0">
