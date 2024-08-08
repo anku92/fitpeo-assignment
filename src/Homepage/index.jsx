@@ -15,7 +15,7 @@ const Homepage = () => {
       <Sidebar />
       <div className="homepage">
         <div className="home-section-left">
-          <h3>Dashboard</h3>
+          <h4>Dashboard</h4>
           <DashboardMiniGrid />
           <BarChart />
           <RecentOrdersList />
