@@ -15,25 +15,28 @@
 
 .dash-card {
   background-color: var(--cs-dark-blue);
-  padding: 14px;
+  padding: 12px 14px;
   border-radius: 10px;
   color: white;
 }
 
 .mini-card-img {
   border-radius: 10px;
-  height: 50px;
-  margin-bottom: 7px;
+  height: 40px;
+  margin-bottom: 5px;
 }
 
 .title {
+  display: block;
   color: #D7D9DF;
-  font-size: 0.87em;
+  font-size: 0.9em;
+  font-weight: 500;
+  margin-bottom: 5px;
 }
 
 .value {
   font-weight: 900;
-  font-size: 1.5em;
+  font-size: 1.4em;
 }
 
 .stats {
@@ -54,7 +57,7 @@
 }
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
   .title {
     font-size: 0.85em;
   }
@@ -62,7 +65,7 @@
 
 @media screen and (max-width: 991.5px) {
   #dash-col {
-    margin-bottom: 10px !important;
+    margin-bottom: 5px !important;
     padding: 0 !important;
   }
 
