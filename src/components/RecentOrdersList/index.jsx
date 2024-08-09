@@ -7,7 +7,6 @@ const RecentOrdersList = () => {
     if (status === "Delivered") return 'success';
     return 'no-success';
   }
-  // note for self: Design the table components all is set
   return (
     <div className="row p-0 mt-0 mb-3 mx-0 g-0">
       <div className="table-container">
