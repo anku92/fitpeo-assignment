@@ -9,10 +9,10 @@ const RecentOrdersList = () => {
   }
   // note for self: Design the table components all is set
   return (
-    <div className="row bg-danger p-1 mt-0 mb-3 mx-0">
+    <div className="row p-0 mt-0 mb-3 mx-0 g-0">
       <div className="table-container">
-        <h3 className="p-0 m-0">Recent Orders</h3>
-        <table className="custom-table">
+        <h4>Recent Orders</h4>
+        <table className="orders-table">
           <thead>
             <tr>
               <th>Customer</th>

@@ -1,52 +1,79 @@
-.table-container{
-  background-color: #145446;
+.table-container {
+  background-color: var(--cs-dark-blue);
+  border-radius: 10px;
+  padding: 15px 15px 8px 15px !important;
 }
 
-.custom-table {
+.table-container h4 {
+  margin-bottom: 8px;
+}
+
+.orders-table {
   width: 100%;
   border-collapse: collapse;
-  margin: 20px 0;
-  background-color: transparent;
-  color: lightgrey;
 }
 
-.custom-table th,
-.custom-table td {
-  padding: 12px 15px;
-  border-bottom: 1px solid var(--cs-icon-bg);
+.orders-table th,
+.orders-table td {
+  padding: 7px;
+  border-bottom: 1px solid grey;
   text-align: left;
+  font-size: 1em;
 }
 
-.custom-table th {
-  font-weight: 500;
-}
-
-.custom-table tbody tr:hover {
+.orders-table tbody tr:hover {
   background-color: hsl(234, 44%, 34%);
 }
 
-.custom-table tr:last-child td {
+.orders-table tr:last-child td {
   border-bottom: none;
 }
 
 .customer-image {
-  height: 40px;
+  height: 35px;
   border-radius: 20px;
   margin-right: 10px;
 }
 
 .status {
-  padding: 3px 10px;
-  font-size: 0.8em;
+  padding: 5px 10px;
+  font-size: 0.9em;
   border-radius: 30px;
 }
 
 .no-success {
   background-color: #5E3233;
-  color: #CE625E;
+  color: #ea6964;
 }
 
 .success {
   background-color: #145446;
-  color: #29AE8A;
+  color: #2cc199;
+}
+
+
+@media screen and (max-width: 920px) {
+  .table-container {
+    padding: 8px 8px 4px 8px !important;
+  }
+
+  .table-container h4 {
+    font-size: 1em;
+    margin-bottom: 4px;
+  }
+
+  .orders-table th,
+  .orders-table td {
+    font-size: 0.72em;
+    padding: 4px;
+  }
+
+  .customer-image {
+    height: 25px;
+  }
+
+  .status {
+    padding: 3px 6px;
+    font-size: 0.7em;
+  }
 }
